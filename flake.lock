@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1699528645,
+        "narHash": "sha256-89RCTWIJdfXSfnnzQbgTo8DGtFgepc2kDA8cauQyAjI=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "b4fa671f99aa0fb19748d4be4a9326ac03149c60",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "zephyr-sdk-src-0-15-2": "zephyr-sdk-src-0-15-2",
+        "zephyr-sdk-src-0-16-0-beta1": "zephyr-sdk-src-0-16-0-beta1",
+        "zephyr-sdk-src-0-16-0-rc1": "zephyr-sdk-src-0-16-0-rc1",
+        "zephyr-sdk-src-0-16-1": "zephyr-sdk-src-0-16-1",
+        "zephyr-sdk-src-0-16-3": "zephyr-sdk-src-0-16-3"
+      }
+    },
+    "zephyr-sdk-src-0-15-2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669133784,
+        "narHash": "sha256-OLN34p1HqazRjaGsJdEYdJDMoMJ22aJhAf/J8+hbT10=",
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.15.2/zephyr-sdk-0.15.2_linux-x86_64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.15.2/zephyr-sdk-0.15.2_linux-x86_64.tar.gz"
+      }
+    },
+    "zephyr-sdk-src-0-16-0-beta1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1670421433,
+        "narHash": "sha256-oIFwfwAn64ShAML9Nl0C3iJD0wzvFsml5X2j1r9L9pY=",
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0-beta1/zephyr-sdk-0.16.0-beta1_linux-x86_64.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0-beta1/zephyr-sdk-0.16.0-beta1_linux-x86_64.tar.xz"
+      }
+    },
+    "zephyr-sdk-src-0-16-0-rc1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678464746,
+        "narHash": "sha256-pNoB0VuPJwxoaWKvaPz7M9ImJ+2I4WR8VH/YCfdD8NI=",
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0-rc1/zephyr-sdk-0.16.0-rc1_linux-x86_64.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0-rc1/zephyr-sdk-0.16.0-rc1_linux-x86_64.tar.xz"
+      }
+    },
+    "zephyr-sdk-src-0-16-1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683852256,
+        "narHash": "sha256-J9ZQOKExzn8a/N4aSBoP6fcwByCKmuHUGQVG69a56ak=",
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.1/zephyr-sdk-0.16.1_linux-x86_64.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.1/zephyr-sdk-0.16.1_linux-x86_64.tar.xz"
+      }
+    },
+    "zephyr-sdk-src-0-16-3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1695424462,
+        "narHash": "sha256-WdrwN1UkpFaz+QxBtVVqPl87A7gr5F3C57UvFmOMOhE=",
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.3/zephyr-sdk-0.16.3_linux-x86_64.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.3/zephyr-sdk-0.16.3_linux-x86_64.tar.xz"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
