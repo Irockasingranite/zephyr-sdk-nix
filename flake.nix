@@ -48,13 +48,17 @@
             sdk-derivation = { pkgs, src, name }: pkgs.stdenv.mkDerivation {
                 inherit name;
                 inherit src;
-                nativeBuildInputs = with pkgs; [ cmake which wget ];
-                buildInputs = [ ];
-                dontUseCmakeConfigure = true;
+                nativeBuildInputs = with pkgs; [ cmake which wget autoPatchelfHook ];
 
-                buildPhase = ''
-                    echo "Doing nothing"
-                '';
+                # Without these the included binaries won't run in a nix
+                # environment, i.e. during a nix build or on nixOS
+                buildInputs = with pkgs; [
+                    stdenv.cc.cc.lib
+                    python38
+                ];
+
+                dontUseCmakeConfigure = true;
+                dontBuild = true;
 
                 installPhase = ''
                     mkdir -p $out
